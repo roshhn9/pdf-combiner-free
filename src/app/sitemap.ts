@@ -3,7 +3,7 @@ import { TOOLS } from '@/config/tools';
 import { BLOG_POSTS } from '@/config/blog';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://pdf-combiner.free';
+  const baseUrl = 'https://pdf-combiner-free.vercel.app';
 
   // Static core pages
   const coreRoutes = ['', '/blog', '/admin'].map((route) => ({

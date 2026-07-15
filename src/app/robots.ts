@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function robots(): MetadataRoute.Robots {
-  const baseUrl = 'https://pdf-combiner.free';
+  const baseUrl = 'https://pdf-combiner-free.vercel.app';
 
   return {
     rules: {

@@ -1,7 +1,7 @@
 import { BLOG_POSTS } from '@/config/blog';
 
 export async function GET() {
-  const baseUrl = 'https://pdf-combiner.free';
+  const baseUrl = 'https://pdf-combiner-free.vercel.app';
 
   const feedItems = BLOG_POSTS.map((post) => `
     <item>
